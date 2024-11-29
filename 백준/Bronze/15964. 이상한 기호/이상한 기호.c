@@ -1,15 +1,15 @@
 #include<stdio.h>
 
 int main() {
-    int a = 0;
-    int b = 0;
+    long a = 0;
+    long b = 0;
 
-    scanf("%d", &a);
-    scanf("%d", &b);
+    scanf("%ld", &a);
+    scanf("%ld", &b);
 
-    int c = (a+b)*(a-b);
+    long c = (a+b)*(a-b);
 
-    printf("%d", c);
+    printf("%ld", c);
 
     return 0;
 
